@@ -1,0 +1,146 @@
+.matter {
+    text-align: center;
+    background-image: url(AA.jpeg);
+    padding: 400px;
+}
+
+.btn-group .button {
+    background-color: black;
+    border: 1px solid black;
+
+    color: blue;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+
+}
+
+.btn-group .button:hover {
+    background-color: black;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.btn-group {
+    text-align: center;
+    background-color: black;
+}
+
+.t12 {
+    background-color: black;
+}
+
+.d {
+    position: relative;
+    background-color: blue;
+    border: none;
+    font-size: 28px;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.d:after {
+    content: "";
+    background: black;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.d:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.hi {
+    padding: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.begin {
+    background-image: url(w.jpg);
+    padding: 400px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.section-1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.card-deck {
+    padding: 180px;
+    background-color: black;
+    color: black
+}
+
+.middle {
+    text-align: center;
+    background-image: url(cover.png);
+    padding: 400px;
+    background-attachment: fixed;
+}
+
+.section-3 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.section-4 {
+    text-align: center;
+    background-image: url(321.jpg);
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+
+}
+
+.row a {
+    color: red;
+}
+
+body {
+
+    overflow-x: hidden;
+}
